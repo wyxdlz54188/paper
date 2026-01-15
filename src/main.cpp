@@ -1,3 +1,4 @@
+#include "config.hpp"
 // Copyright (C) 2025 Langning Chen
 //
 // This file is part of paper.
@@ -30,6 +31,7 @@
 
 int main(int argc, char *argv[])
 {
+    LoadConfig("config/config.json");
     ARGC::Initialize(argc, argv);
     const std::string imageFile = ARGC::GetArg("image", "image.img");
     I18N::Initialize();
