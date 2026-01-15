@@ -1,0 +1,5 @@
+{
+  "server": { "enable": true, "bind": "127.0.0.1", "port": 8080 },
+  "hosts": { "enable": true, "path": "C:/Windows/System32/drivers/etc/hosts", "auto_restore_on_exit": true },
+  "runtime": { "debug": false }
+}
